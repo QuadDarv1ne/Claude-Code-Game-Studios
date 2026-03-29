@@ -7,21 +7,16 @@
 - [x] 5 новых навыков созданы и закоммичены
 - [x] README_RU.md создан
 - [x] Изменения отправлены в main
-
----
-
-## 🔴 Критические исправления
-
-### 1. Несогласованность в заголовке README_RU.md
-- **Проблема**: "48 агентов. 37 рабочих процессов" — должно быть "42 рабочих процесса"
-- **Файл**: `README_RU.md` (строка 6)
-- **Решение**: Исправить "37 рабочих процессов" → "42 рабочих процесса"
+- [x] Заголовок в README_RU.md исправлен (42 рабочих процесса)
+- [x] 5 шаблонов добавлены (.claude/docs/templates/)
+- [x] Новые навыки интегрированы в 5 агентов
+- [x] agent-coordination-map.md обновлён
 
 ---
 
 ## 🟡 Улучшения качества
 
-### 2. Тестирование новых навыков
+### 1. Тестирование новых навыков
 - **Задача**: Протестировать каждый из 5 новых навыков в реальной работе
 - **Навыки**:
   - `/monetization-design` — проверить генерацию economy-balance.csv
@@ -31,12 +26,12 @@
   - `/ui-ux-review` — проверить интеграцию с accessibility-specialist
 - **Критерий**: Каждый навык должен работать без ошибок и создавать файлы
 
-### 3. Валидация хуков для новых навыков
+### 2. Валидация хуков для новых навыков
 - **Задача**: Убедиться, что хуки корректно работают с новыми файлами навыков
 - **Хуки**: `validate-commit.sh`, `log-agent.sh`
 - **Тест**: Запустить коммит с изменениями в новых навыках
 
-### 4. Консистентность стиля навыков
+### 3. Консистентность стиля навыков
 - **Проблема**: Новые навыки могут отличаться по структуре от существующих
 - **Задача**: Сравнить с эталонными (`brainstorm`, `code-review`, `sprint-plan`)
 - **Критерий**: Единый формат frontmatter, фаз, AskUserQuestion интеграции
@@ -45,31 +40,19 @@
 
 ## 🟢 Долгосрочные улучшения
 
-### 5. Добавить шаблоны для новых навыков
-- **monetization-design**: Шаблон `monetization-plan.md` в `.claude/docs/templates/`
-- **tutorial-flow**: Шаблон `ftue-flow.md` в `.claude/docs/templates/`
-- **analytics-setup**: Шаблон `event-catalog.md` в `.claude/docs/templates/`
-- **narrative-design**: Шаблон `dialogue-tree.md` в `.claude/docs/templates/`
-- **ui-ux-review**: Шаблон `ui-audit-report.md` в `.claude/docs/templates/`
-
-### 6. Интеграция с агентами
-- **Задача**: Добавить ссылки на новые навыки в соответствующих агентов
-- **Агенты**:
-  - `economy-designer.md` → `/monetization-design`
-  - `ux-designer.md` → `/ui-ux-review`
-  - `narrative-director.md` → `/narrative-design`
-  - `analytics-engineer.md` → `/analytics-setup`
-  - `game-designer.md` → `/tutorial-flow`
-
-### 7. Обновить документацию координации
+### 4. Обновить документацию координации
 - **Файл**: `.claude/docs/agent-coordination-map.md`
 - **Задача**: Добавить пути эскалации для новых навыков
+- **Статус**: ✅ Выполнено — добавлена секция Skills Integration
 
 ---
 
 ## 📋 Проверка перед merge в main
 
-- [ ] Исправлен заголовок в README_RU.md (37→42 рабочих процесса)
+- [x] Исправлен заголовок в README_RU.md (37→42 рабочих процесса)
+- [x] 5 шаблонов добавлены
+- [x] Агенты обновлены (5 файлов)
+- [x] agent-coordination-map.md обновлён
 - [ ] Все 5 новых навыков протестированы
 - [ ] Хуки проходят валидацию
 - [ ] Стиль навыков консистентен с существующими
@@ -82,7 +65,17 @@
 
 | Файл | Статус | Примечание |
 |------|--------|------------|
-| `README_RU.md` | ✅ Исправлен | Заголовок: "42 рабочих процесса" |
+| `.claude/docs/templates/monetization-plan.md` | ✅ Создан | Шаблон плана монетизации |
+| `.claude/docs/templates/ftue-flow.md` | ✅ Создан | Шаблон FTUE |
+| `.claude/docs/templates/event-catalog.md` | ✅ Создан | Каталог событий |
+| `.claude/docs/templates/dialogue-tree.md` | ✅ Создан | Диалоговые деревья |
+| `.claude/docs/templates/ui-audit-report.md` | ✅ Создан | UI/UX аудит |
+| `.claude/agents/economy-designer.md` | ✅ Обновлён | +Related Skills |
+| `.claude/agents/ux-designer.md` | ✅ Обновлён | +Related Skills |
+| `.claude/agents/narrative-director.md` | ✅ Обновлён | +Related Skills |
+| `.claude/agents/analytics-engineer.md` | ✅ Обновлён | +Related Skills |
+| `.claude/agents/game-designer.md` | ✅ Обновлён | +Related Skills |
+| `.claude/docs/agent-coordination-map.md` | ✅ Обновлён | +Skills Integration |
 
 ---
 
