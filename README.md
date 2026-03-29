@@ -51,7 +51,7 @@ The result: you still make every decision, but now you have a team that asks the
 | Category | Count | Description |
 |----------|-------|-------------|
 | **Agents** | 48 | Specialized subagents across design, programming, art, audio, narrative, QA, and production |
-| **Skills** | 37 | Slash commands for common workflows (`/start`, `/sprint-plan`, `/code-review`, `/brainstorm`, etc.) |
+| **Skills** | 42 | Slash commands for common workflows (`/start`, `/sprint-plan`, `/code-review`, `/brainstorm`, etc.) |
 | **Hooks** | 8 | Automated validation on commits, pushes, asset changes, session lifecycle, agent audit, and gap detection |
 | **Rules** | 11 | Path-scoped coding standards enforced when editing gameplay, engine, AI, UI, network code, and more |
 | **Templates** | 29 | Document templates for GDDs, ADRs, sprint plans, economy models, faction design, and more |
@@ -92,10 +92,10 @@ The template includes agent sets for all three major engines. Use the set that m
 
 ## Slash Commands
 
-Type `/` in Claude Code to access all 37 skills:
+Type `/` in Claude Code to access all 42 skills:
 
 **Reviews & Analysis**
-`/design-review` `/code-review` `/balance-check` `/asset-audit` `/scope-check` `/perf-profile` `/tech-debt`
+`/design-review` `/code-review` `/balance-check` `/asset-audit` `/scope-check` `/perf-profile` `/tech-debt` `/ui-ux-review`
 
 **Production**
 `/sprint-plan` `/milestone-review` `/estimate` `/retrospective` `/bug-report`
@@ -107,7 +107,10 @@ Type `/` in Claude Code to access all 37 skills:
 `/release-checklist` `/launch-checklist` `/changelog` `/patch-notes` `/hotfix`
 
 **Creative**
-`/brainstorm` `/playtest-report` `/prototype` `/onboard` `/localize`
+`/brainstorm` `/playtest-report` `/prototype` `/onboard` `/localize` `/narrative-design` `/tutorial-flow`
+
+**Business & Analytics**
+`/monetization-design` `/analytics-setup`
 
 **Team Orchestration** (coordinate multiple agents on a single feature)
 `/team-combat` `/team-narrative` `/team-ui` `/team-release` `/team-polish` `/team-audio` `/team-level`

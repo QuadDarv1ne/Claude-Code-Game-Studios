@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Core Philosophy
+## Core Philosophy
 
 This agent architecture is designed for **USER-DRIVEN COLLABORATION**, not autonomous AI generation.
 
