@@ -11,6 +11,9 @@
 - [x] 5 шаблонов добавлены (.claude/docs/templates/)
 - [x] Новые навыки интегрированы в 5 агентов
 - [x] agent-coordination-map.md обновлён
+- [x] 5 примеров использования добавлены (docs/examples/)
+- [x] README.md обновлён (29→34 шаблона)
+- [x] production/session-state/.gitkeep добавлен
 
 ---
 
@@ -35,6 +38,7 @@
 - **Проблема**: Новые навыки могут отличаться по структуре от существующих
 - **Задача**: Сравнить с эталонными (`brainstorm`, `code-review`, `sprint-plan`)
 - **Критерий**: Единый формат frontmatter, фаз, AskUserQuestion интеграции
+- **Статус**: ✅ Проверено — стиль соответствует
 
 ---
 
@@ -53,9 +57,10 @@
 - [x] 5 шаблонов добавлены
 - [x] Агенты обновлены (5 файлов)
 - [x] agent-coordination-map.md обновлён
+- [x] 5 примеров использования добавлены
+- [x] README.md обновлён (34 шаблона)
 - [ ] Все 5 новых навыков протестированы
 - [ ] Хуки проходят валидацию
-- [ ] Стиль навыков консистентен с существующими
 - [ ] Git status чист (нет незакоммиченных изменений)
 - [ ] Запущен `git diff main..dev` — все изменения ожидаются
 
@@ -65,17 +70,13 @@
 
 | Файл | Статус | Примечание |
 |------|--------|------------|
-| `.claude/docs/templates/monetization-plan.md` | ✅ Создан | Шаблон плана монетизации |
-| `.claude/docs/templates/ftue-flow.md` | ✅ Создан | Шаблон FTUE |
-| `.claude/docs/templates/event-catalog.md` | ✅ Создан | Каталог событий |
-| `.claude/docs/templates/dialogue-tree.md` | ✅ Создан | Диалоговые деревья |
-| `.claude/docs/templates/ui-audit-report.md` | ✅ Создан | UI/UX аудит |
-| `.claude/agents/economy-designer.md` | ✅ Обновлён | +Related Skills |
-| `.claude/agents/ux-designer.md` | ✅ Обновлён | +Related Skills |
-| `.claude/agents/narrative-director.md` | ✅ Обновлён | +Related Skills |
-| `.claude/agents/analytics-engineer.md` | ✅ Обновлён | +Related Skills |
-| `.claude/agents/game-designer.md` | ✅ Обновлён | +Related Skills |
-| `.claude/docs/agent-coordination-map.md` | ✅ Обновлён | +Skills Integration |
+| `docs/examples/monetization-design-example.md` | ✅ Создан | Пример использования /monetization-design |
+| `docs/examples/tutorial-flow-example.md` | ✅ Создан | Пример использования /tutorial-flow |
+| `docs/examples/analytics-setup-example.md` | ✅ Создан | Пример использования /analytics-setup |
+| `docs/examples/narrative-design-example.md` | ✅ Создан | Пример использования /narrative-design |
+| `docs/examples/ui-ux-review-example.md` | ✅ Создан | Пример использования /ui-ux-review |
+| `README.md` | ✅ Обновлён | 29→34 шаблона |
+| `production/session-state/.gitkeep` | ✅ Добавлен | Сохранение структуры папок |
 
 ---
 
@@ -91,6 +92,7 @@
 | `CLAUDE.md` | Главная конфигурация проекта |
 | `.claude/docs/skills-reference.md` | Все 42 slash-команды |
 | `.claude/docs/agent-roster.md` | Все 48 агентов с областями |
+| `docs/examples/` | Примеры использования навыков |
 
 ---
 
