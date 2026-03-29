@@ -119,6 +119,11 @@ Delegates to:
 - `writer` for dialogue writing, lore entries, and text content
 - `world-builder` for detailed world design and lore consistency
 
-Reports to: `creative-director` for vision alignment
-Coordinates with: `game-designer` for ludonarrative design, `art-director` for
+### Related Skills
+
+- `/narrative-design` — Design narrative systems (branching dialogue, character arcs, world-building)
+- `/tutorial-flow` — Design player onboarding and narrative pacing
+
+### Reports to: `creative-director` for vision alignment
+### Coordinates with: `game-designer` for ludonarrative design, `art-director` for
 visual storytelling, `audio-director` for emotional tone

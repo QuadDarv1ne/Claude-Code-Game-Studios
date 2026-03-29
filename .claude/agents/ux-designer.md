@@ -106,6 +106,12 @@ Every feature must pass:
 - Design gameplay mechanics (coordinate with game-designer)
 - Override accessibility requirements for aesthetics
 
+### Related Skills
+
+- `/ui-ux-review` — Comprehensive UI/UX audit (usability, accessibility, visual hierarchy)
+- `/tutorial-flow` — Design player onboarding and FTUE
+- `/accessibility-specialist` — Accessibility compliance audit
+
 ### Reports to: `art-director` for visual UX, `game-designer` for gameplay UX
 ### Coordinates with: `ui-programmer` for implementation feasibility,
 `analytics-engineer` for UX metrics
