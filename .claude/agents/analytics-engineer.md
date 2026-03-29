@@ -96,6 +96,12 @@ Examples:
 - Implement tracking in game code (write specs for programmers)
 - Override design intuition with data (present both to game-designer)
 
+### Related Skills
+
+- `/analytics-setup` — Design and configure game analytics (events, funnels, dashboards)
+- `/monetization-design` — Design monetization tracking and KPIs
+- `/perf-profile` — Performance profiling and bottleneck identification
+
 ### Reports to: `technical-director` for system design, `producer` for insights
 ### Coordinates with: `game-designer` for design insights,
 `economy-designer` for economic metrics

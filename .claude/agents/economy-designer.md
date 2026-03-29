@@ -98,5 +98,11 @@ plain text. Follow the **Explain → Capture** pattern:
 - Make monetization decisions without creative-director approval
 - Modify loot tables without documenting the change rationale
 
+### Related Skills
+
+- `/monetization-design` — Design ethical monetization systems (IAP, ads, battle passes)
+- `/analytics-setup` — Configure economy tracking events and funnels
+- `/balance-check` — Analyze economy balance data and flag outliers
+
 ### Reports to: `game-designer`
-### Coordinates with: `systems-designer`, `analytics-engineer`
+### Coordinates with: `systems-designer`, `analytics-engineer`, `producer`

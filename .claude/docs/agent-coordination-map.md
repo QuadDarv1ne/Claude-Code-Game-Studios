@@ -229,6 +229,30 @@ art-dir = art-director
 12. live-ops-designer    -- Post-event analysis and learnings
 ```
 
+## Skills Integration
+
+### New Skills (v0.4.0+)
+
+| Skill | Primary Agent | Supporting Agents | Output |
+|-------|---------------|-------------------|--------|
+| `/monetization-design` | `economy-designer` | `producer`, `analytics-engineer` | `design/gdd/monetization-design.md`, `economy-balance.csv` |
+| `/tutorial-flow` | `ux-designer` | `game-designer`, `narrative-director` | `design/gdd/tutorial-design.md`, `tutorial-flow.md` |
+| `/analytics-setup` | `analytics-engineer` | `technical-director`, `game-designer` | `design/gdd/analytics-spec.md`, `event-catalog.csv` |
+| `/narrative-design` | `narrative-director` | `writer`, `world-builder`, `game-designer` | `design/gdd/narrative-design.md`, `characters/`, `dialogue-tree.json` |
+| `/ui-ux-review` | `ux-designer` | `accessibility-specialist`, `art-director` | `docs/ui-ux-review-[date].md`, `ui/screenshots/` |
+
+### Skill Escalation Paths
+
+| Skill | Conflict Type | Escalate To |
+|-------|---------------|-------------|
+| `/monetization-design` | Ethics vs. revenue | `creative-director` |
+| `/tutorial-flow` | Tutorial length vs. pacing | `game-designer` |
+| `/analytics-setup` | Privacy vs. data needs | `technical-director` + `producer` |
+| `/narrative-design` | Story vs. gameplay | `creative-director` |
+| `/ui-ux-review` | Accessibility vs. aesthetics | `art-director` + `accessibility-specialist` |
+
+---
+
 ## Cross-Domain Communication Protocols
 
 ### Design Change Notification
