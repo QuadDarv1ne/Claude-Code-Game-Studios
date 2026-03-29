@@ -39,3 +39,8 @@
 | `/map-systems` | Decompose game concept into systems, map dependencies, prioritize design order, guide per-system GDDs |
 | `/design-system` | Guided, section-by-section GDD authoring for a single game system with cross-referencing and incremental writing |
 | `/setup-engine` | Configure engine + version, detect knowledge gaps, populate version-aware reference docs |
+| `/monetization-design` | Design ethical monetization systems — IAP, ads, battle passes, cosmetics. Balances revenue with player satisfaction |
+| `/tutorial-flow` | Design player onboarding and tutorial systems — FTUE, progressive learning, retention optimization |
+| `/analytics-setup` | Design and configure game analytics — event tracking, funnels, cohorts, dashboards for data-driven decisions |
+| `/narrative-design` | Design narrative systems — branching dialogue, story structure, character arcs, world-building integrated with gameplay |
+| `/ui-ux-review` | Comprehensive UI/UX review — usability, accessibility, visual hierarchy, interaction design, player flow analysis |
